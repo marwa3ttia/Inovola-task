@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;500&display=swap');
+body{
+    font-family: 'Cairo', sans-serif !important;
+    /* font-weight: bold !important */
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+ 
+}
+.nav-link{
+font-weight: 500;
+font-size: 16px;
+}
+.header__info  h1{
+    color: #8D5DA7;
+    font-weight: bold;
+    font-size: 36px;
+}
+.header__info p{
+    font-size: 16px;
+    line-height: 2rem;
+    font-weight: 500
+}
+
+.btn__style{
+    background-color: #8D5DA7 ;
+    border: none;
+    border-radius: 15px;
+    padding: 13px;
+    color: #FDB515;
+    font-weight: bold;
+}
+.header__photos{
+    text-align: center;
+    position: relative;
+}
+
+.header__photos .Pattern__photo{
+    position: absolute;
+    top: 8px;
+    left: 61px;
+    z-index: -1;
+}
+.header__photos .Ellipse__photo {
+    position: absolute;
+    bottom: -37px;
+    right: 50px;
+    z-index: -1;
+}
+
+.values__photos{
+     position: relative;
+}
+.values__section{
+
+    margin-top: 8rem;
+}
+.values__section h4{
+
+    font-size: 24px;
+    color: #8D5DA7;
+    font-weight: bold;
+}
+.values__section p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.values__section ul li .second{
+   font-size: 14px;
+}
+.values__section ul li .last{
+    font-size: 12px;
+ }
+.values__photos .Pattern__photo{
+    position: absolute;
+    top: -24px;
+    left: 15px;
+    z-index: -1;
+}
+.values__photos .Ellipse__photo {
+    position: absolute;
+    bottom: -52px;
+    right: -57px;
+    z-index: -1;
+}
+.features .feature__item h6{
+   color: #8D5DA7;;
+}
+.features button{
+    display: block;
+}
+.features .feature__item p{
+    font-size: 10px;
+}
+.footer{
+    background-color:#855b9c ;
+    position: relative;
+}
+.footer button{
+   position: absolute;
+   background-color: #FDB515;
+   border: none;
+   font-size: 1rem;
+   color:#6b487e ;
+   padding: 4px 7px;
+   border-radius: 50%;
+}
+.footer button:first-of-type{
+    bottom: 16px;
+    left: 30px;
+  
+}
+.footer button:nth-of-type(2){
+    bottom: 16px;
+    right: 30px;
+}
